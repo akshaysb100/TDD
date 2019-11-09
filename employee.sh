@@ -14,7 +14,7 @@ then
 
 elif [ $randomValue == $isPartTime ]
  then
-  
+   echo "part time"
    hours=4;
   
 else
