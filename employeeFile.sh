@@ -6,15 +6,15 @@ randomValue=$(( RANDOM % 3 ))
 rate=100;
 hours=0;
 
-if [ $randomValue == $isFullTime ]
+if [ $randomValue == $isFull Time ]
 then
-    echo"Employee Full Time  " 
+   
     hours=9;
  
 
-elif [ $randomValue == $isPartTime ]
+elif [ $randomValue == $isPart Time ]
  then
-  echo"Employee  part Time "
+  
    hours=4;
   
 else
