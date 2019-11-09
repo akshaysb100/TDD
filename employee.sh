@@ -8,7 +8,7 @@ hours=0;
 
 if [ $randomValue == $isFullTime ]
 then
-  
+      echo "Employee present "  
     hours=9;
  
 
