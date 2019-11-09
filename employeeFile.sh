@@ -8,13 +8,13 @@ hours=0;
 
 if [ $randomValue == $isFullTime ]
 then
-    echo"Employee FullTime " 
+    echo"Employee Full Time " 
     hours=9;
  
 
 elif [ $randomValue == $isPartTime ]
  then
-  echo"Employee  partTime "
+  echo"Employee  part Time "
    hours=4;
   
 else
