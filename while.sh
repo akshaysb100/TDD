@@ -9,26 +9,28 @@ hours=0;
 parDaySalary=0;
 salary=0;
 while [ $valid ]
-do
-counter=$counter++; 
+do  
+
+        counter=$(( $counter + 1 ))
+
+        if [ $counter == 20 ]
+                then
+                   break;
+fi 
     randomValue=$(( RANDOM % 3 )) 
      if [ $randomValue == $isFullTime ]
-then
-  
-    hours=9;
+         then
+            hours=9;
  
 
-elif [ $randomValue == $isPartTime ]
- then
-  
-   hours=4;
-
-elif [ $counter -eq 1 ]
- then
-   break;
-   
+     elif [ $randomValue == $isPartTime ]
+     then
+           hours=4;
+      else
+           hoors=0;
 fi
-parDaySalary=$(( $parDaySalary +  $rate * $hours )) 
+
+  parDaySalary=$(( $parDaySalary +  $rate * $hours )) 
 
 done
 salary=$parDaySalary;
