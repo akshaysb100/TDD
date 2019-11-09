@@ -1,0 +1,10 @@
+public class HelloWorld{
+    public static void main(String[] arg){
+     
+    while(true){
+
+      System.out.println("hello Word");
+      Thread.sleep(60000);
+   }
+}
+}
