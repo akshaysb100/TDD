@@ -22,6 +22,7 @@ elif [ $randomValue == $isPartTime ]
    hours=4;
 
 else
+
    hours=0;
   
 fi
