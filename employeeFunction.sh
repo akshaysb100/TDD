@@ -9,7 +9,7 @@ parDaySalary=0;
 salary=0;
 for (( counter=1; counter<=20; counter++ ))
 do
-    randomValue=$(( RANDOM % 3 )) 
+     randomValue=$(( RANDOM % 3 )) 
      if [ $randomValue == $isFullTime ]
 then
     
