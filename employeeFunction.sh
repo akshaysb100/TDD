@@ -12,8 +12,7 @@ do
      randomValue=$(( RANDOM % 3 )) 
      if [ $randomValue == $isFullTime ]
 then
-    
-    echo "Full Time"
+   
     hours=9;
  
 
