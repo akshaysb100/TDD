@@ -34,3 +34,11 @@ echo $parDaySalary
 result="$( myfunc )"
 echo $result
 
+counter=0
+fruit[((counter++))]="Apple"
+fruit[((counter++))]="Banana" 
+friut[((counter++))]="Orange"
+
+echo ${fruit[@]}
+
+
